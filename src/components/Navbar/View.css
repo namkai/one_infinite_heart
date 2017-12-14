@@ -1,0 +1,22 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    /*margin-right: 100px;*/
+    border-bottom: 1px solid #cecfd7;
+}
+
+.navbar-title {
+    display: flex;
+    flex: 1;
+}
+
+.navbar-item-container {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
