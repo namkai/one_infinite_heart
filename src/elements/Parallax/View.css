@@ -1,7 +1,4 @@
 
-.home-container {
-
-}
 
 .parallax {
     height: 500px;
@@ -12,8 +9,4 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../../assets/images/geran-de-klerk-136351.jpg');
-}
-
-.intro-text {
-    margin: 5em 10em;
 }

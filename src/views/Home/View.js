@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import backgroundImage from '../../assets/images/brandon-morgan-15365.jpg';
+import { Parallax } from '../../elements';
 import './View.css'
 
 function Home() {
   return (
     <div className="home-container">
-      <div className="parallax"/>
+      <Parallax  />
       <div className="text-container">
         <p className="intro-text">This site presents the work of Peter Fairfield and the Tara Center for Health and
           Happiness.
@@ -14,12 +16,9 @@ function Home() {
           Our work is in several areas: Clinically with individuals and
           presenting seminar/retreats for therapeutic professionals, corporations and the lay public</p>
       </div>
+      <Parallax/>
     </div>
   );
 }
-
-
-Home.propTypes = {};
-Home.defaultProps = {};
 
 export default Home;
